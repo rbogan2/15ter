@@ -11,7 +11,7 @@ const { spawn, execSync } = require('child_process');
 
 // ---------- 配置（请按需修改） ----------
 const HYSTERIA_VERSION = 'v2.6.3';
-const SERVER_PORT = 22222; // 端口这里填你面板的端口
+const SERVER_PORT = 8080; // 端口这里填你面板的端口
 const AUTH_PASSWORD = '20250922'; // 强烈建议改成更复杂的密码
 // 如果能提前把 cert.pem/key.pem 放到设备上，会更可靠、减少运行时步骤
 const CERT_FILE = 'cert.pem';
